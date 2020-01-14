@@ -42,4 +42,11 @@ module.exports = {
 
     return res.json(dev);
   },
+
+  async update() {
+    // TODO: apenas "name, avatar_url, bio, techs, location"
+  },
+  async destroy() {
+    // TODO
+  },
 };
